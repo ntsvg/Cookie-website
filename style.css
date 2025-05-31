@@ -1,0 +1,37 @@
+/* Apply a universal box sizing model and reset margins and paddings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+    margin: 0
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkblue;
+    margin-top: 20px;
+    padding: 1px;
+    background-color: rgb(152, 236, 251);
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box, content-box;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+    background-color: lightblue;
+    color: darkblue;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
