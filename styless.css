@@ -1,0 +1,21 @@
+body {
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+}
+h2, h4 {
+    text-align: center;
+    font-family: 'Courier';
+}
+h4 {
+    border: 3px solid black;
+    background-color: palevioletred;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+img {
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

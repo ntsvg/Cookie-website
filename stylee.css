@@ -1,0 +1,20 @@
+        body{
+            background-color: antiquewhite;
+        }
+        div.scrollmenu {
+            overflow: auto;
+            white-space: nowrap;
+            background-color: #333;
+        }
+        div.scrollmenu a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px;
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        div.scrollmenu a:hover {
+            background-color: #777;
+            color: white;
+        }
